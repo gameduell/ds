@@ -1,3 +1,7 @@
+# Fork Information
+
+This is a fork of the polygonal ds library to make it a duell tool library.
+
 # Data Structures For Games (ds)
 
 ![ds logo](http://polygonal.github.com/ds/images/ds-small.png)
@@ -47,14 +51,14 @@ If you want to test the latest beta build, you should pull the dev branch and ad
 ### 1.4.1 (released 2013-07-08)
 
  * modified: removed "polygonal-core" haxelib dependency
- 
+
 ### 1.4.0 (released 2013-06-28)
 _support Haxe Compiler 3.0.0_
 
  * modified: support Haxe 3 only (Haxe 2.x and Neko 1.x are no longer supported)
  * modified: sacrifice Collection.toDA() for proper @:generic support
  * modified: explicitly allocate elements in ArrayUtil.alloc() when targeting neko
- * fixed: several fixes when compilin with -D generic 
+ * fixed: several fixes when compilin with -D generic
  * modified: change BitVector to use the haxe.ds.Vector as data
  * modified: ArrayUtil.shrink(): trim when targeting cpp
  * modified: ArrayUtil.alloc(): explicitly allocate elements when targeting cpp

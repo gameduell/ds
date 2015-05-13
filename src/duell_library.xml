@@ -3,4 +3,6 @@
 
     <supported-duell-tool version="3.0.0+" />
 
+    <haxelib name="polygonal-printf" version="1.0.2-beta" />
+
 </library>

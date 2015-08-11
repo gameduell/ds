@@ -342,6 +342,8 @@ class BitVector implements Hashable
 		var k =
 		#if neko
 		neko.NativeString.length(bytes);
+		#elseif js
+		bytes.byteLength;
 		#else
 		bytes.length;
 		#end

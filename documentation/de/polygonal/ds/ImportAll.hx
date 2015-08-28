@@ -1,7 +1,8 @@
-package polygonal.ds;
+package de.polygonal.ds;
 import de.polygonal.ds.pooling.ObjectPool;
 import de.polygonal.ds.pooling.LinkedObjectPool;
 import de.polygonal.ds.pooling.DynamicObjectPool;
+#if flash
 import de.polygonal.ds.mem.ShortMemory;
 import de.polygonal.ds.mem.MemoryManager;
 import de.polygonal.ds.mem.MemoryAccess;
@@ -10,6 +11,7 @@ import de.polygonal.ds.mem.FloatMemory;
 import de.polygonal.ds.mem.DoubleMemory;
 import de.polygonal.ds.mem.ByteMemory;
 import de.polygonal.ds.mem.BitMemory;
+#end
 import de.polygonal.ds.error.AssertError;
 import de.polygonal.ds.error.Assert;
 import de.polygonal.ds.XmlConvert;

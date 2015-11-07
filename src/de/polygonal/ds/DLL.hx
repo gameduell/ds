@@ -1135,12 +1135,13 @@ class DLL<T> implements Collection<T>
 			if (_iterator == null)
 			{
 				if (_circular)
-					return new CircularDLLIterator<T>(this);
+                    _iterator = new CircularDLLIterator<T>(this);
 				else
-					return new DLLIterator<T>(this);
+                    _iterator = new DLLIterator<T>(this);
 			}
 			else
 				_iterator.reset();
+
 			return _iterator;
 		}
 		else
